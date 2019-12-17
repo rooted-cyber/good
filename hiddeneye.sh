@@ -49,6 +49,7 @@ $saf
 cd HiddenEye
 $ll$i$k$h $o "$gg"
 pip3 install wget
+pip3 install requests
 $ll$i$k$h $o "$hara Press enter to open Hiddeneye"
 read
 python3 HiddenEye.py
