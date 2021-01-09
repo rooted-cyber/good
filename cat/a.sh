@@ -3,8 +3,16 @@ don() {
 	wget https://raw.githubusercontent.com/rooted-cyber/good/master/cat/$i
 	done
 	}
+	che() {
+		if [ -e /app/ld ];then
+		cat ld
+		else
+		wget https://raw.githubusercontent.com/rooted-cyber/good/master/cat/ld
+		cat ld
+		fi
+		}
+		che
 	printf "\n\n Downloaded and install all plugins\n\n"
-	printf "`.load dp`"
 	menu() {
 		cd us*/pl*
 		don
