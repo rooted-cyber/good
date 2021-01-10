@@ -55,7 +55,7 @@ async def animepp():
 @borg.on(admin_cmd(pattern="dp ?(.*)"))
 async def main(event):
 
-    await event.edit("**Starting Auto set Actress Profile Pic... in 15 seconds\n\nDone !!! Check Your DP **")
+    await event.edit("**Starting Auto set Actress Profile Pic... in 30 seconds\n\nDone !!! Check Your DP **")
 
     while True:
 
@@ -67,4 +67,4 @@ async def main(event):
 
         os.system("rm -rf donottouch.jpg")
 
-        await asyncio.sleep(15)  # Edit this to your required needs
+        await asyncio.sleep(30)  # Edit this to your required needs
