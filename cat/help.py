@@ -120,7 +120,7 @@ async def info(event):
         return
     if input_str:
         if input_str in SUDO_LIST:
-            string = "<b>{count} Commands found in plugin {input_str}:</b>\n\n"
+            string = "<b>{count} Commands found in plugin {input_str}:</b>\n\n Join My group : @rootedcyber1"
             catcount = 0
             for i in SUDO_LIST[input_str]:
                 string += f"  •  <code>{i}</code>"
@@ -155,13 +155,13 @@ async def info(event):
         if args in CMD_HELP:
             await edit_or_reply(event, str(CMD_HELP[args]))
         else:
-            event = await edit_or_reply(event, "Please specify a valid plugin name.")
+            event = await edit_or_reply(event, "Please specify a valid plugin name. or go to @rootedcyber1")
             await asyncio.sleep(3)
             await event.delete()
     else:
-        string = "<b>Please specify which plugin do you want help for !! or go to @rootedcyber1\
+        string = "<b>Please specify which plugin do you want help for !!\
             \nNumber of plugins : </b><code>{count}</code>\
-            \n<b>Usage : </b><code>.information plugin name</code>\n\nMy group : @rootedcyber1"
+            \n<b>Usage : </b><code>.in plugin name</code>\n\nMy group : @rootedcyber1"
         catcount = 0
         for i in sorted(CMD_HELP):
             string += "◆ " + f"<code>{str(i)}</code>"
