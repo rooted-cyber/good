@@ -4,16 +4,21 @@ don() {
 	done
 	}
 	che() {
-		if [ -e /app/ld ];then
-		cat ld
-		else
+		rm ld
 		wget https://raw.githubusercontent.com/rooted-cyber/good/master/cat/ld
 		cat ld
-		fi
 		}
+		check-bot() {
+			ca=$(cat alive.py | grep -e Cat)
+			if [ -z "$ca" ];then
+			printf "\n\n First install cat userbot !!!\n\n"
+			exit
+			fi
+			}
 		che
 	printf "\n\n Downloaded and install all plugins\n\n"
 	menu() {
+		check-bot
 		cd us*/pl*
 		rm eval*
 		rm help.py
