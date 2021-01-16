@@ -15,10 +15,10 @@ don() {
 			exit
 			fi
 			}
-		che
 	printf "\n\n Downloaded and install all plugins\n\n"
 	menu() {
 		check-bot
+		che
 		cd us*/pl*
 		rm eval*
 		rm help.py
