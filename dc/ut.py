@@ -5,8 +5,8 @@ from pathlib import Path
 
 from telethon import events
 
-from jarvis import CMD_LIST, LOAD_PLUG, bot
-from jarvis.jconfig import Config
+from userbot import CMD_LIST, LOAD_PLUG, bot
+from userbot.jconfig import Config
 from var import Var
 
 SUDO_LIST = Config.SUDO_USERS
