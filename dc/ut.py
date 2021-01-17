@@ -200,7 +200,7 @@ from time import gmtime, strftime
 
 from telethon import events
 
-from jarvis import bot
+from userbot import bot
 
 
 def register(**args):
