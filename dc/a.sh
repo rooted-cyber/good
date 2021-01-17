@@ -13,12 +13,10 @@ don() {
 		cat ld
 		}
 		check-bot() {
-			cd us*/pl*
-			pwd
-			ls ali*
-			cat alive.py | grep -e dark
-			ca=$(cat alive.py | grep -e dark)
-			if [ -z "$ca" ];then
+			cd /app
+			if [ -e DARK* ];then
+			echo
+			else
 			printf "\n\n First install  dark cobra userbot !!!\n\n"
 			exit
 			fi
