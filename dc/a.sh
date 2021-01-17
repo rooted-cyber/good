@@ -14,6 +14,7 @@ don() {
 		}
 		check-bot() {
 			cd us*/pl*
+			pwd
 			ca=$(cat alive.py | grep -e dark_cobra)
 			if [ -z "$ca" ];then
 			printf "\n\n First install  dark cobra userbot !!!\n\n"
