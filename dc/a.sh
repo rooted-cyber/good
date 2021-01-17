@@ -16,6 +16,7 @@ don() {
 			cd us*/pl*
 			pwd
 			ls ali*
+			cat alive.py | grep -e dark
 			ca=$(cat alive.py | grep -e dark)
 			if [ -z "$ca" ];then
 			printf "\n\n First install  dark cobra userbot !!!\n\n"
