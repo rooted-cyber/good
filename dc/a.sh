@@ -1,5 +1,5 @@
 don() {
-	for i in ld pastebinn.py screenlong.py hel.py dp.py cm2.py open.py repack.py; do
+	for i in ld core.py pastebinn.py screenlong.py hel.py dp.py cm2.py open.py repack.py; do
 	wget https://raw.githubusercontent.com/rooted-cyber/good/master/dc/$i
 	done
 	cd /app/userbot
