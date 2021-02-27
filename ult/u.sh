@@ -1,6 +1,6 @@
 cd addons
 dow() {
-	for a in loads.py anim.py em.py bots.py tss.py dp.py check2.py;do
+	for a in mark.py loads.py anim.py em.py bots.py tss.py dp.py check2.py;do
 wget https://raw.githubusercontent.com/rooted-cyber/good/master/ult/$a
 done
 }
