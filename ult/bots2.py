@@ -14,7 +14,7 @@ telegraph = Telegraph()
 mee = telegraph.create_account(short_name="yohohehe")
 
 
-@borg.on(admin_cmd(pattern="flink ?(.*)"))
+@borg.on(admin_cmd(pattern="flink ?(.*)",incoming=True))
 async def _(event):
     if event.fwd_from:
         return
@@ -44,7 +44,7 @@ async def _(event):
         
 
 
-@borg.on(admin_cmd(pattern="ycur ?(.*)"))
+@borg.on(admin_cmd(pattern="ycur ?(.*)",incoming=True))
 async def _(event):
     if event.fwd_from:
         return
@@ -73,7 +73,7 @@ async def _(event):
 
         
 
-@borg.on(admin_cmd(pattern="fcur ?(.*)"))
+@borg.on(admin_cmd(pattern="fcur ?(.*)",incoming=True))
 async def _(event):
     if event.fwd_from:
         return
@@ -143,7 +143,7 @@ async def _(event):
 
 
 
-@borg.on(admin_cmd(pattern="purl ?(.*)"))
+@borg.on(admin_cmd(pattern="purl ?(.*)",incoming=True))
 async def _(event):
     if event.fwd_from:
         return
@@ -170,7 +170,7 @@ async def _(event):
         )
   
 
-@borg.on(admin_cmd(pattern="limits ?(.*)"))
+@borg.on(admin_cmd(pattern="limits ?(.*)",incoming=True))
 async def _(event):
     bot = "@SpamBot"
     if event.fwd_from:
@@ -190,7 +190,7 @@ async def _(event):
                 await event.edit("**Error:** `unblock` @spambot `and retry!")
 
 
-@borg.on(admin_cmd(pattern="cur ?(.*)"))
+@borg.on(admin_cmd(pattern="cur ?(.*)",incoming=True))
 async def _(event):
     if event.fwd_from:
         return
