@@ -1,13 +1,15 @@
 cd addons
 dow() {
-	for a in bins.py cemoji.py uspam.py fonts2.py poto.py mark.py pm.py nekobot.py read.py loads.py anim.py em.py bots2.py tss.py dp.py check2.py;do
+	for a in plugins.py sending_file.py ids.py cemoji.py uspam.py fonts2.py poto.py mark.py pm.py nekobot.py read.py loads.py anim.py em.py bots2.py tss.py check2.py;do
 wget https://raw.githubusercontent.com/rooted-cyber/good/master/ult/$a
 done
 }
 if [ -e check2.py ];then
 printf "Already downloaded files \n\n"
 printf "\n Load this file \n
-bins
+plugins
+sending_file
+ids
 cemoji
 uspam
 fonts2
