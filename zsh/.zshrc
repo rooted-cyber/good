@@ -19,8 +19,8 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source ~/zsh-theme/.plugin/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/zsh-theme/.plugin/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.Rootedcyber/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.Rootedcyber/zsh-autosuggestions/zsh-autosuggestions.zsh
 alias a='apt install'
 alias p='python'
 alias p2='python2'
